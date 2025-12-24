@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+jinja2>=3.1   # only if templates/report.md.jinja is used
+streamlit>=1.40
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+openai
+altair
