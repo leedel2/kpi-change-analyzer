@@ -13,8 +13,7 @@ Present results in a clean visual dashboard and a short textual summary
 
 A live demo is available at:
 
-https://YOUR-APP-NAME.streamlit.app
-(Replace with the actual URL of your deployed Streamlit app.)
+https://kpi-change-analyzer.streamlit.app
 
 ## Features
 1. Metric and period comparison
@@ -137,7 +136,7 @@ Running locally (for developers)
 If you want to clone and run the app locally:
 
 bash
-git clone https://github.com/<your-username>/kpi-change-analyzer.git
+git clone https://github.com/leedel2/kpi-change-analyzer.git
 cd kpi-change-analyzer
 
 python3 -m venv .venv
@@ -149,21 +148,3 @@ source .venv/bin/activate
 .venv/bin/streamlit run app.py
 Then open the URL shown in the terminal (usually http://localhost:8501).
 
-Deployment (for the app owner)
-To deploy on Streamlit Community Cloud:
-
-Push this repo to GitHub.
-
-Go to https://streamlit.io → Community Cloud → New app.
-
-Select:
-
-GitHub repo.
-
-Branch (e.g. main).
-
-Main file: app.py.
-
-Click Deploy.
-
-Streamlit will give you a public URL you can share in your portfolio.
